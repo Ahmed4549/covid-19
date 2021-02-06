@@ -1,0 +1,30 @@
+.app___stats{
+    display: flex;
+  }
+.header{
+  margin-bottom: 15px;
+}
+  .table{
+  margin: 0 auto;
+  max-width: 250px;
+  padding-left: 2%;
+  padding-right: 2%;
+  overflow: hidden;
+  height: 350px;
+}
+.table td{
+  padding:2px ;
+  color: black;
+  justify-content: space-between;
+}
+.table tr:nth-of-type(odd){
+  color: black;
+  background-color: #29B6F6;
+}
+.stats{
+  max-width: 300px;
+  margin: 0 auto;
+}
+.lineChart{
+  max-height: 250px;
+}
